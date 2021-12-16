@@ -5,6 +5,9 @@
   "repository": "git@github.com:taigakiyokawa/zenn.git",
   "author": "taigakiyokawa",
   "license": "MIT",
+  "scripts": {
+    "preview": "zenn preview"
+  },
   "dependencies": {
     "zenn-cli": "^0.1.100"
   }
