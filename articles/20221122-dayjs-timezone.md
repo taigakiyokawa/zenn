@@ -3,7 +3,7 @@ title: "UTC の値を任意のタイムゾーンの日時に変換したい時�
 emoji: "📆"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["javascript", "dayjs", "frontend"]
-published: false
+published: true
 ---
 
 [Day.js の.tz.setDefault()が動かないと思ったけど使い方が間違ってただけだった | DevelopersIO](https://dev.classmethod.jp/articles/day-js-timezone-set-default/) をしっかり読んだ上で変なところでハマった可哀想な人の雑記です。
