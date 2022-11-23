@@ -74,7 +74,7 @@ dayjs.extend(utc);
 dayjs.extend(timezone);
 dayjs.tz.setDefault("Asia/Tokyo");
 
-// Will return a error "Invalid Date" when the argument is null 😇
+// Will return the error "Invalid Date" when the argument is null 😇
 export const customDayjs = (date: ConfigType = null): Dayjs => {
   return dayjs.tz(date);
 };
@@ -85,7 +85,7 @@ export const customDayjs = (date: ConfigType = null): Dayjs => {
 ```typescript
 ...
 
-// Will return the curent date and time when the argument is undefined 👍
+// Will return the current date and time when the argument is undefined 👍
 export const customDayjs = (date: ConfigType = undefined): Dayjs => {
   return dayjs.tz(date)
 }
