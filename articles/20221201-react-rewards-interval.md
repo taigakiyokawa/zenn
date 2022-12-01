@@ -96,7 +96,9 @@ export const App: FC = () => {
 
 ### Step 1. `useEffect` 内で使ってみる 🤔
 
-App のレンダリングが更新されるタイミングで呼ばれるだけ。
+App のレンダリングが更新されるタイミングで呼ばれるだけ。さみしい。
+
+![](https://storage.googleapis.com/zenn-user-upload/be9fb6c018f4-20221202.gif)
 
 ```tsx:App.tsx
 import { FC, useEffect } from "react";
