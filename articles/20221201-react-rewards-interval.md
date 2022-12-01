@@ -321,14 +321,14 @@ const { reward, isAnimating } = useReward("rewardId", "confetti", {
 ...
 ```
 
-### config に `position: "absolute"` を渡している時に `viewport` からはみ出るように紙吹雪を飛ばすとレイアウトが崩れるぞ！
+### config に `position: "absolute"` を渡している時に `viewport` からはみ出るように紙吹雪を飛ばすと盛大にレイアウトが崩れるぞ！
 
 デフォルトの `position: fixed` なら問題ない。
 繰り返し実行しなくても注意。
 
 ![](https://storage.googleapis.com/zenn-user-upload/2d0fa9182dc0-20221201.gif)
 
-### 解決策:
+#### 解決策:
 
 親要素に `position: relative` と `overflow: hidden` を付与しよう！
 
