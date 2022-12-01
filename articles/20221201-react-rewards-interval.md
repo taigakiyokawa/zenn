@@ -3,7 +3,7 @@ title: "react-rewards の紙吹雪を setInterval で繰り返す"
 emoji: "🎉"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["react", "javascript", "frontend"]
-published: false
+published: true
 ---
 
 Next.js で作っている静的サイトで紙吹雪をいい感じに散らしたくなったので、[`react-rewards`](https://github.com/thedevelobear/react-rewards) で色々試した記録です。
