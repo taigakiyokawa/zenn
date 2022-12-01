@@ -7,7 +7,7 @@ published: true
 ---
 
 Next.js で作っている静的サイトで紙吹雪をいい感じに散らしたくなったので、[`react-rewards`](https://github.com/thedevelobear/react-rewards) で色々試した記録です。
-アドベントカレンダーが始まり各所が賑わう中、丁度いい感じの小ネタを全然関係ないところで放出して 2 週間後くらいに会社のアドベントカレンダーを担当する自分を追い込んでいくスタイルです。
+アドベントカレンダーが始まり各所が賑わう中、丁度いい感じの小ネタを全然関係ないところで放出して 10 日後くらいに会社のアドベントカレンダーを担当する自分を追い込んでいくスタイルです。
 
 ## 結論
 
@@ -17,6 +17,8 @@ Next.js で作っている静的サイトで紙吹雪をいい感じに散らし
 
 GitHub にも上げています 👇
 https://github.com/taigakiyokawa/react-rewards-set-interval
+
+余分なものを省いた時のコードの全体像 👇
 
 ```tsx:App.tsx
 import { FC, useEffect } from "react";
@@ -96,7 +98,9 @@ export const App: FC = () => {
 
 ### Step 1. `useEffect` 内で使ってみる 🤔
 
-App のレンダリングが更新されるタイミングで呼ばれるだけ。
+App のレンダリングが更新されるタイミングで呼ばれるだけ。さみしい。
+
+![](https://storage.googleapis.com/zenn-user-upload/be9fb6c018f4-20221202.gif)
 
 ```tsx:App.tsx
 import { FC, useEffect } from "react";
@@ -123,7 +127,7 @@ export const App: FC = () => {
 
 タブ開いたまましばらくして戻ってきたらブワァってなる。
 
-![](https://storage.googleapis.com/zenn-user-upload/ce2fa59ce138-20221201.gif)
+![](https://storage.googleapis.com/zenn-user-upload/9f61c3a32c62-20221202.gif)
 
 ```diff tsx:App.tsx
 + import { setInterval } from "timers";
@@ -307,7 +311,7 @@ https://github.com/taigakiyokawa/react-rewards-set-interval
 
 #### 解決策:
 
-ある表示領域内に留めたい時は `useReward` の第 3 引数に position 指定の変更などができる [config オブジェクト](https://github.com/thedevelobear/react-rewards#props--config) を渡せるので、そこで `position: "absolute"` など `fixed` 以外を指定してあげよう！
+`useReward` の第 3 引数に position 指定の変更などができる [config オブジェクト](https://github.com/thedevelobear/react-rewards#props--config) を渡せるので、ある表示領域内に留めたい時は `position: "absolute"` など `fixed` 以外を指定してあげよう！
 
 ```tsx:App.tsx
 ...
