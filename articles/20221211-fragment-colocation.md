@@ -311,10 +311,16 @@ export const ViewerPage: FC = () => {
 :::details components/Profile.tsx
 
 ```tsx:Profile.tsx
-type Props = {
-  name: string
-  bio: string | null
-}
+import { Profile_UserFragment } from './__generated__'
+
+gql`
+  fragment Profile_User on User {
+    name
+    bio
+  }
+`
+
+type Props = Profile_UserFragment
 
 export const Profile: FC<Props> = ({ name, bio }) => {
   return (
