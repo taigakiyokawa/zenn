@@ -3,7 +3,7 @@ title: "GraphQL の Fragment Colocation を導入したら依存関係がスッ�
 emoji: "🐕"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["graphql", "apollo", "graphqlcodegen", "typescript", "frontend"]
-published: false
+published: true
 publication_name: "moneyforward"
 ---
 
