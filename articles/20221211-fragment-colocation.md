@@ -423,7 +423,7 @@ export default config
 
 ---
 
-最後までお読みいただきありがとうございました。明日 12 日目は masami morita さんによる『Agile Testing Days 2022 の参加レポ』です！お楽しみに〜 👋🏻 🎅🏻
+最後までお読みいただきありがとうございました。明日 12 日目は[森田](https://twitter.com/AWorkingholiday)さんによる『[Agile Testing Days 2022 に参加してきました！](https://moneyforward.com/engineers_blog/2022/12/12/agile-testing-days-2022/)』です！お楽しみに〜 👋🏻 🎅🏻
 https://adventar.org/calendars/7397
 
 ---
