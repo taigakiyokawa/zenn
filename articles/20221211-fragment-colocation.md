@@ -120,23 +120,25 @@ https://github.com/taigakiyokawa/fragment-colocation-sample-app
 
 ### Schema
 
-```graphql:schema.graphql
-type User {
-  id: ID!
-  name: String!
-  bio: String
-  posts: [Post!]!
-}
+```ts:type-defs.ts
+export const typeDefs = gql`
+  type User {
+    id: ID!
+    name: String!
+    bio: String
+    posts: [Post!]!
+  }
 
-type Post {
-  id: ID!
-  date: String!
-  title: String!
-}
+  type Post {
+    id: ID!
+    date: String!
+    title: String!
+  }
 
-type Query {
-  viewer: User!
-}
+  type Query {
+    viewer: User!
+  }
+`
 ```
 
 ### Before Colocated Fragments
@@ -244,7 +246,7 @@ export const PostList: FC<Props> = ({ posts }) => {
 import type { CodegenConfig } from '@graphql-codegen/cli'
 
 const config: CodegenConfig = {
-  schema: 'graphql/schema.graphql',
+  schema: 'graphql/type-defs.ts',
   generates: {
     'graphql/__generated__/graphql-types.ts': {
       documents: 'graphql/**/*.graphql',
