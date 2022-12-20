@@ -4,6 +4,7 @@ emoji: "🐷"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["i18n", "reacti18next", "react", "html", "frontend"]
 published: false
+publication_name: "moneyforward"
 ---
 
 この記事は [Money Forward Engineering 2 Advent Calendar 2022](https://qiita.com/advent-calendar/2022/moneyforward) の 20 日目の投稿です 🎄
