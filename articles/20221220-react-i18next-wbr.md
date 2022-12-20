@@ -202,6 +202,13 @@ export default function App() {
 }
 ```
 
+```css:styles.css
+.header {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+```
+
 ![Comparison between the sentence without wbr and the one with wbr](https://storage.googleapis.com/zenn-user-upload/26c5d81ce402-20221220.png)
 
 `wbr` が適用されていることが確認できます。中途半端な箇所で折り返されてしまっている前者に比べて後者の方がキレイに改行されていて、スッキリしていますね。
