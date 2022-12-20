@@ -224,7 +224,7 @@ export default function App() {
 
 ---
 
-最後までお読みいただきありがとうございました。明日 12 日目は[ちーず](https://qiita.com/cheez921)さんです！お楽しみに〜 👋🏻 🎅🏻
+最後までお読みいただきありがとうございました。明日 21 日目は[ちーず](https://qiita.com/cheez921)さんです！お楽しみに〜 👋🏻 🎅🏻
 https://qiita.com/advent-calendar/2022/moneyforward
 
 ---
