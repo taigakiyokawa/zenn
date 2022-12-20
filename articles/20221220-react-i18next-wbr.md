@@ -21,7 +21,7 @@ publication_name: "moneyforward"
 - `react-i18next` の設定ファイルで `i18next.options.react` の **`transKeepBasicHtmlNodesFor` に `wbr` を追加する**ことで、Trans コンポーネントで文中の `<wbr/>` を HTML タグとして保持することができる
 - `wbr` による改行制御はやや過剰なのでごく限られたケースにのみ使うのが良さそう
 
-実装例 👇
+実装例 (表示幅を変えてみてください) 👇
 
 @[codesandbox](https://codesandbox.io/embed/great-carlos-cp07dz?fontsize=14&hidenavigation=1&theme=dark)
 
