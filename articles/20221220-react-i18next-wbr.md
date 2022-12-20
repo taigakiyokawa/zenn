@@ -3,7 +3,7 @@ title: "react-i18next で日本語の改行箇所を制御したい時は、設�
 emoji: "🐷"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["i18n", "reacti18next", "react", "html", "frontend"]
-published: false
+published: true
 publication_name: "moneyforward"
 ---
 
