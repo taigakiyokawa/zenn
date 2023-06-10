@@ -4,7 +4,7 @@ emoji: "🎺"
 published: true
 publication_name: "gophersjp"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["nextjs", "githubpages", "zod", "webp", "frontend"]
+topics: ["nextjs", "zod", "webp", "css", "frontend"]
 ---
 
 Go Conference 2023 Online の Web サイト開発チームの一員として携わらせていただいたので、使用した技術や工夫したポイントを書いていこうと思います。
