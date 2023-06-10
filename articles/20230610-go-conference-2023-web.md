@@ -215,7 +215,7 @@ https://gocon.jp/2023
 ## 関連 URL
 
 - [Go Conference 2023](https://gocon.jp/2023/)
-- [GoCon/2023: Go Conference 2023](https://github.com/gocon/2023)
+- [GoCon/2023 | GitHub](https://github.com/gocon/2023)
 - [Sessionize](https://sessionize.com/)
 - [`react-rewards` の紙吹雪を `setInterval` で繰り返す](https://zenn.dev/taigakiyokawa/articles/20221201-react-rewards-interval)
 - [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/#pause-stop-hide)
