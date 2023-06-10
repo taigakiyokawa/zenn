@@ -1,7 +1,7 @@
 ---
 title: "Go Conference 2023 Online の Web サイトにおける工夫ポイント"
 emoji: "🎺"
-published: false
+published: true
 publication_name: "gophersjp"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["nextjs", "githubpages", "zod", "webp", "frontend"]
