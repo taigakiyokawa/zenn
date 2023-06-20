@@ -1,7 +1,7 @@
 ---
 title: "GitHub Packages の npm レジストリを使って、社内 org 用のプライベートパッケージを公開する手順とインストールする手順"
 emoji: "🎁"
-published: false
+published: true
 publication_name: "moneyforward"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["github", "npm", "githubpackages", "githubactions"]
