@@ -1,7 +1,7 @@
 ---
 title: "アイコンボタンのアクセシブルな名前はボタンが持つべきかアイコンが持つべきか"
 emoji: "🍕"
-published: false
+published: true
 publication_name: "moneyforward"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["accessibility", "アクセシビリティ", "html", "waiaria", "wcag"]
