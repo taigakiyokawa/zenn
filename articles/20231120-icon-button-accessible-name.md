@@ -223,7 +223,7 @@ Accessibility Object Modelにおける`<svg>`要素のRoleプロパティの値�
 WCAGは特定の技術に依存しないように設計されているため、HTMLやWAI-ARIAに当てはめて考えると細部の解釈が曖昧になることが多々あります。その上で、アイコンボタンに対しての疑問を個人的な解釈でまとめていきたいと思います。
 :::
 
-### ポイント1：アイコンのみのボタンのアイコンは装飾なのか意味を持つ画像なのか
+### ポイント1：アイコンボタンのアイコンは装飾なのか意味を持つ画像なのか
 
 アイコンボタンのアイコン画像は[Success Criterion 1.1.1 Non-text Content](https://www.w3.org/TR/WCAG22/#non-text-content)の例外のうちの1つである"Decoration, Formatting, Invisible"に相当するか否かについて。
 
@@ -233,7 +233,7 @@ WCAGは特定の技術に依存しないように設計されているため、H
 > **pure decoration**
 > serving only an aesthetic purpose, providing no information, and having no functionality
 
-ボタンが持つアイコン画像はそれ自体が情報や機能をユーザーに伝えているため、"providing no information, and having no functionality"には当てはまらないのではないかと考えます。なので、アイコン画像は代替テキストを持つべきだと考えますが、アイコンボタンとしてはもう1つの例外についても考える必要があります。
+アイコンボタンが持つアイコン画像はそれ自体が情報や機能をユーザーに伝えているため、"providing no information, and having no functionality"には当てはまらないのではないかと考えます。なので、アイコン画像は代替テキストを持つべきだと考えますが、アイコンボタンとしてはもう1つの例外についても考える必要があります。
 
 ### ポイント2：非テキストコンテンツの範囲はアイコン画像のみなのかアイコンボタンまで含めるのか
 
