@@ -242,7 +242,7 @@ WCAGは特定の技術に依存しないように設計されているため、H
 > Controls, Input
 If non-text content is a control or accepts user input, then it has a [name](https://www.w3.org/TR/WCAG22/#dfn-name) that describes its purpose. (Refer to [Success Criterion 4.1.2](https://www.w3.org/TR/WCAG22/#name-role-value) for additional requirements for controls and content that accepts user input.)
 
-この例外のボタンにおける具体例は、WAIの提示する達成方法の1つである[H36: Using alt attributes on images used as submit buttons](https://www.w3.org/WAI/WCAG22/Techniques/html/H36)^[[Understanding Success Criterion 1.1.1: Non-text Content | WAI | W3C](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html) > Techniques > Sufficient Techniques > Situation C: If non-text content is a control or accepts user input: に記載]にあるような、[`<input type="image">`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/input/image)などで画像データを直接送信ボタンなどに使用している場合が挙げれられます。
+この例外のボタンにおける具体例は、WAIの提示する達成方法の1つである[H36: Using alt attributes on images used as submit buttons](https://www.w3.org/WAI/WCAG22/Techniques/html/H36)^[[Understanding Success Criterion 1.1.1: Non-text Content | WAI | W3C](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html) > Techniques > Sufficient Techniques > Situation C: If non-text content is a control or accepts user input: に記載]にあるような、[`<input type="image">`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/input/image)などで画像データを直接送信ボタンなどに使用している場合が挙げられます。
 
 アイコンボタン内のアイコン画像のみを非テキストコンテンツと捉えていましたが、アイコンボタンそのものが非テキストコンテンツと捉えることができる場合、上記の例外に当てはまるのではないかと思いました。いずれにせよ、アイコンボタンにアクセシブルな名前を持たせることに変わりはありませんが、非テキストコンテンツの粒度の解釈によっては、「SVGアイコンボタンにアクセシブルな名前を持たせる方法」のセクションで挙げた方法のうち1と2の方法も妥当になる可能性があります。
 
