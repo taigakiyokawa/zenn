@@ -7,7 +7,7 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["accessibility", "アクセシビリティ", "html", "waiaria", "wcag"]
 ---
 
-本記事は`<svg>`要素のみを持つ`<button>`要素（アイコンボタン）にアクセシブルな名前（accessible name）を持たせる方法について調査した結果と、WCAG 2.2の[Success Criterion 1.1.1 Non-text Content](https://www.w3.org/TR/WCAG22/#non-text-content)に関する私見をまとめたものです。
+本記事は`<svg>`要素のみを持つ`<button>`要素（アイコンボタン）にアクセシブルな名前（[accessible name](https://www.w3.org/TR/accname-1.2/#dfn-accessible-name)）を持たせる方法について調査した結果と、WCAG 2.2の[Success Criterion 1.1.1 Non-text Content](https://www.w3.org/TR/WCAG22/#non-text-content)に関する私見をまとめたものです。
 
 ## 結論
 
@@ -289,6 +289,7 @@ If non-text content is a control or accepts user input, then it has a [name](htt
 
 ## 関連URL
 
+- [Accessible Name - Accessible Name and Description Computation 1.2](https://www.w3.org/TR/accname-1.2/#dfn-accessible-name)
 - [Success Criterion 1.1.1 Non-text Content - Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/#non-text-content)
 - [aria-label で始める、アクセシビリティ改善活動](https://zenn.dev/moneyforward/articles/b5c9b060cf9237)
 - [Accessible name for svg element inside button element](https://codepen.io/taigakiyokawa/pen/xxMPLKg?default-tab=html,result)
