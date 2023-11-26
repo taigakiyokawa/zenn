@@ -11,7 +11,7 @@ topics: ["accessibility", "アクセシビリティ", "wcag"]
 
 ---
 
-本記事は、2023年10月5日に正式な勧告（Recommendation）となった[Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)において、新たに追加された達成基準（Success Criterion）「[3.2.6 Consistent Help](https://www.w3.org/TR/WCAG22/#consistent-help)」の概要と達成方法について、[Understanding Doc](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html)をもとに私見をまとめたものです。より正確な詳細は参照元のドキュメントをご覧ください。
+本記事は、2023年10月5日に正式な勧告（Recommendation）となった[Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)において、新たに追加された達成基準（Success Criterion）のひとつである「[3.2.6 Consistent Help](https://www.w3.org/TR/WCAG22/#consistent-help)」の概要と達成方法について、[Understanding Doc](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html)をもとに私見をまとめたものです。より正確な詳細は参照元のドキュメントをご覧ください。
 
 ## まとめ
 
@@ -27,7 +27,7 @@ topics: ["accessibility", "アクセシビリティ", "wcag"]
 - WCAGを読んだことがない方、あるいは読んだけど理解が難しかった方
 - アクセシビリティの専門家の方（ぜひご意見いただきたいです）
 
-## Success Criterion 3.2.6 Consistent Help とは
+## 3.2.6 Consistent Help（一貫したヘルプ）とは
 
 あるWebページのまとまりの中で、有人ないしは自動応答によるチャットサポートやヘルプページへの導線などが提供されている場合、そのページ群の中において一貫した順序、位置にヘルプの仕組み（help mechanism）を提供すること。
 
@@ -50,7 +50,7 @@ topics: ["accessibility", "アクセシビリティ", "wcag"]
 
 一貫したヘルプの配置は、ヘルプを見つけることが難しかった人にとって見つけやすくなる可能性があります。
 
-## ヘルプの仕組みの具体例
+## 具体例
 
 ### Understanding Docs
 
