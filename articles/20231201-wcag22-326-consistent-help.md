@@ -11,7 +11,11 @@ topics: ["accessibility", "アクセシビリティ", "wcag"]
 
 ---
 
-本記事は、2023年10月5日に正式な勧告（Recommendation）となった[Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)において、新たに追加された達成基準（Success Criterion）のひとつである「[3.2.6 Consistent Help](https://www.w3.org/TR/WCAG22/#consistent-help)」の概要と達成方法について、[Understanding Doc](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html)をもとに私見をまとめたものです。より正確な詳細は参照元のドキュメントをご覧ください。
+本記事は、2023年10月5日に正式な勧告（Recommendation）となった[Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)において、新たに追加されたLevel Aの達成基準（Success Criterion）のひとつである「[3.2.6 Consistent Help](https://www.w3.org/TR/WCAG22/#consistent-help)」の概要と達成方法について、[Understanding Doc](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html)をもとに私見をまとめたものです。より正確な詳細は参照元のドキュメントをご覧ください。
+
+WCAG 2.2 Level Aのもう一つの新達成基準である「[3.3.7 Redundant Entry](https://www.w3.org/TR/WCAG22/#redundant-entry)」についても同様にまとめたので、よろしければ以下の記事も合わせてご覧ください。
+
+https://zenn.dev/moneyforward/articles/20231201-wcag22-337-redundant-entry
 
 ## まとめ
 
@@ -100,6 +104,12 @@ WAIが作成しているWCAG 2.2のUnderstanding Docsの場合、いずれのペ
 - この達成基準は、ユーザーがヘルプを見つけやすくすることを目的としており、特に認知障害や学習障害のあるユーザーにとって役に立ちます
 - グローバルなヘッダーやフッターのようなアプリケーション全体の共通部品にヘルプの仕組みを配置することで、ページ間で一貫したヘルプの仕組みを提供することで、この達成基準を満たしやすくできると考えます
 - この達成基準は自動テストによって担保できないため、目視およびスクリーンリーダーなどの支援技術を使った手動チェックによって一貫性を確認する必要があります
+
+---
+
+WCAG 2.2 Level Aのもう一つの新達成基準である「[3.3.7 Redundant Entry](https://www.w3.org/TR/WCAG22/#redundant-entry)」についても同様にまとめたので、よろしければ以下の記事も合わせてご覧ください。
+
+https://zenn.dev/moneyforward/articles/20231201-wcag22-337-redundant-entry
 
 ## 関連URL
 

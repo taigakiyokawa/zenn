@@ -11,7 +11,11 @@ topics: ["accessibility", "アクセシビリティ", "wcag"]
 
 ---
 
-本記事は、2023年10月5日に正式な勧告（Recommendation）となった[Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)において、新たに追加された達成基準（Success Criterion）のひとつである「[3.3.7 Redundant Entry](https://www.w3.org/TR/WCAG22/#redundant-entry)」の概要と達成方法について、[Understanding Doc](https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html)をもとに私見をまとめたものです。より正確な詳細は参照元のドキュメントをご覧ください。
+本記事は、2023年10月5日に正式な勧告（Recommendation）となった[Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)において、新たに追加されたLevel Aの達成基準（Success Criterion）のひとつである「[3.3.7 Redundant Entry](https://www.w3.org/TR/WCAG22/#redundant-entry)」の概要と達成方法について、[Understanding Doc](https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html)をもとに私見をまとめたものです。より正確な詳細は参照元のドキュメントをご覧ください。
+
+WCAG 2.2 Level Aのもう一つの新達成基準である「[3.2.6 Consistent Help](https://www.w3.org/TR/WCAG22/#consistent-help)」についても同様にまとめたので、よろしければ以下の記事も合わせてご覧ください。
+
+https://zenn.dev/moneyforward/articles/20231201-wcag22-326-consistent-help
 
 ## まとめ
 
@@ -110,6 +114,12 @@ Amazonでは、届け先住所と請求先住所が同じ場合、請求先住�
 - WCAG 2.2 Success Criterion 3.3.7 Redundant Entryとは、ユーザーによって以前入力された情報を再入力する必要がある場合、一部の例外を除いて、その情報が自動入力できるか、ユーザーによって選択可能となっていることを要求する達成基準です
 - この達成基準は、複数のステップを持つ一連の手順をユーザーが正しく完了できるようにすることを目的としており、認知や記憶が困難なユーザーにとってストレスの軽減やミスの可能性を減らすことにつながります
 - この達成基準を満たすには、ブラウザに頼らずウェブサイト自体が再入力の必要な情報を特定し、それを保持して提供する方法を考える必要があります
+
+---
+
+WCAG 2.2 Level Aのもう一つの新達成基準である「[3.2.6 Consistent Help](https://www.w3.org/TR/WCAG22/#consistent-help)」についても同様にまとめたので、よろしければ以下の記事も合わせてご覧ください。
+
+https://zenn.dev/moneyforward/articles/20231201-wcag22-326-consistent-help
 
 ## 関連URL
 
