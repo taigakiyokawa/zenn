@@ -15,7 +15,7 @@ topics: ["accessibility", "アクセシビリティ", "wcag"]
 
 WCAG 2.2 Level Aのもう一つの新達成基準である「[3.3.7 Redundant Entry](https://www.w3.org/TR/WCAG22/#redundant-entry)」についても同様にまとめたので、よろしければ以下の記事も合わせてご覧ください。
 
-https://zenn.dev/moneyforward/articles/20231201-wcag22-337-redundant-entry
+https://zenn.dev/taigakiyokawa/articles/20231201-wcag22-337-redundant-entry
 
 ## まとめ
 
@@ -109,7 +109,7 @@ WAIが作成しているWCAG 2.2のUnderstanding Docsの場合、いずれのペ
 
 WCAG 2.2 Level Aのもう一つの新達成基準である「[3.3.7 Redundant Entry](https://www.w3.org/TR/WCAG22/#redundant-entry)」についても同様にまとめたので、よろしければ以下の記事も合わせてご覧ください。
 
-https://zenn.dev/moneyforward/articles/20231201-wcag22-337-redundant-entry
+https://zenn.dev/taigakiyokawa/articles/20231201-wcag22-337-redundant-entry
 
 ## 関連URL
 

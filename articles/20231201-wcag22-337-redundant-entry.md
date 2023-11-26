@@ -15,7 +15,7 @@ topics: ["accessibility", "アクセシビリティ", "wcag"]
 
 WCAG 2.2 Level Aのもう一つの新達成基準である「[3.2.6 Consistent Help](https://www.w3.org/TR/WCAG22/#consistent-help)」についても同様にまとめたので、よろしければ以下の記事も合わせてご覧ください。
 
-https://zenn.dev/moneyforward/articles/20231201-wcag22-326-consistent-help
+https://zenn.dev/taigakiyokawa/articles/20231201-wcag22-326-consistent-help
 
 ## まとめ
 
@@ -119,7 +119,7 @@ Amazonでは、届け先住所と請求先住所が同じ場合、請求先住�
 
 WCAG 2.2 Level Aのもう一つの新達成基準である「[3.2.6 Consistent Help](https://www.w3.org/TR/WCAG22/#consistent-help)」についても同様にまとめたので、よろしければ以下の記事も合わせてご覧ください。
 
-https://zenn.dev/moneyforward/articles/20231201-wcag22-326-consistent-help
+https://zenn.dev/taigakiyokawa/articles/20231201-wcag22-326-consistent-help
 
 ## 関連URL
 
