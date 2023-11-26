@@ -1,7 +1,7 @@
 ---
 title: "WCAG2.2の新達成基準\"3.3.7 Redundant Entry\"を理解する"
 emoji: "🔁"
-published: false
+published: true
 publication_name: "moneyforward"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["accessibility", "アクセシビリティ", "wcag"]
