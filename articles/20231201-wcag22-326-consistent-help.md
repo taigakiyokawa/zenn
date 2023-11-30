@@ -1,7 +1,8 @@
 ---
 title: "WCAG2.2の新達成基準\"3.2.6 Consistent Help\"を理解する"
 emoji: "❓"
-published: false
+published: true
+published_at: 2023-12-01 09:00
 publication_name: "moneyforward"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["accessibility", "アクセシビリティ", "wcag"]
