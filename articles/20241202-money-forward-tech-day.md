@@ -148,6 +148,8 @@ https://blog.arthur1.dev/entry/2023/06/04/100000
 
 ### その他
 
+他にも大小様々な工夫ポイントがありますが、ここまで書いてて長くなりすぎたので、ざっくり列挙しておきます。
+
 - **16px未満のフォントサイズを使わない**：Webブラウザのデフォルトを下回らないように設計
 - **フォントサイズの指定には相対値remを使う**：画面拡大時にもレイアウトを保つため
 - **色だけで区別しない**：日英どちらがアクティブか下線を引く、各セッションのカテゴリはテキストで明示、外部リンクにはアイコンをつける、など
@@ -191,7 +193,7 @@ Riveで作成したモーショングラフィックをReactで実行するに�
 
 @[codesandbox](https://codesandbox.io/embed/9ywsjl?view=preview&module=%2Fsrc%2FApp.js)
 
-今回のWebサイトでは、riveが提供しているLayoutクラスのインスタンスで2つのenum FitとAlignmentを使って背景全面を覆うようなコンポーネントとして定義しています。
+今回のWebサイトでは、Riveが提供しているLayoutクラスのインスタンスで2つのenum FitとAlignmentを使って背景全面を覆うようなコンポーネントとして定義しています。
 
 ```tsx
 import { useRive, Layout, Fit, Alignment } from '@rive-app/react-canvas';
