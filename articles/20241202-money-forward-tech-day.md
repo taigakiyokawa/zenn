@@ -1,7 +1,7 @@
 ---
 title: "アクセシビリティとモーショングラフィックの両立を目指した、Money Forward Tech Day 2024のWebサイト開発"
 emoji: "🌏"
-published: false
+published: true
 publication_name: "moneyforward"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["accessibility", "i18n", "rive", "react", "contest2024"]
