@@ -7,7 +7,7 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["accessibility", "i18n", "rive", "react", "contest2024"]
 ---
 
-この記事は、[Money Forward Engineers Advent Calendar 2024](https://adventar.org/calendars/9988) 1日目の投稿です 🎄
+この記事は、[Money Forward Engineers Advent Calendar 2024](https://adventar.org/calendars/9988) 2日目の投稿です 🎄
 
 ---
 
