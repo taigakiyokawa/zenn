@@ -495,7 +495,7 @@ https://docs.google.com/presentation/d/1SRlqYR7m4a9JcN9GblnByeQP7Mmwwoe8zTlQQDhq
 
 https://fortee.jp/frontend-conf-hokkaido-2025/proposal/3228c84e-6748-4abb-ab6a-649375f0117a
 
-https://speakerdeck.com/yusukebe/aishi-dai-nouihadokohexing-ku
+@[speakerdeck](ef6c6884f07d42219038397393cea061)
 
 :::details 視聴中のメモ
 
