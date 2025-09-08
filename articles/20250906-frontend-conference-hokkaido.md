@@ -175,7 +175,7 @@ https://docs.google.com/presentation/d/1MEKUvB8UtsHyalEsEF0JQMKcOSe1F8BOg1kTbp29
 
 https://fortee.jp/frontend-conf-hokkaido-2025/proposal/dd5b541a-7d69-40f9-bda3-178701c06ab0
 
-（[チームラボ　フロントエンド班のZenn Publication](https://zenn.dev/p/teamlab_fe)にて資料公開予定）
+@[speakerdeck](b3fea5485935460aa521ba4e2acc8669)
 
 :::details 視聴中のメモ
 
